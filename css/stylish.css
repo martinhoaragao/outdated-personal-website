@@ -1,0 +1,24 @@
+body {
+    background-color: #605063;
+}
+
+#main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#teaser{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5em;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+#teaser h1, #teaser h3 {
+    font-family: "Oswald", Open Sans, Sans;
+    color: #EFF3CD;
+}
