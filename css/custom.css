@@ -300,10 +300,10 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("../img/mountains.jpg");
+  background-image: url("../img/valley.jpg");
 }
 section.module.parallax-2 {
-  background-image: url("../img/demo/_small/2.jpg");
+  background-image: url("../img/mountains.jpg");
 }
 section.module.parallax-3 {
   background-image: url("../img/demo/_small/3.jpg");
