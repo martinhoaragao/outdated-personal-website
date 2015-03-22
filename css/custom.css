@@ -9,13 +9,112 @@
 		url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');
 }
 
+#avatar img{
+	border-radius: 50%;
+	border: 5px solid white;
+}
+
 .revealJs iframe{
 	width: 80%;
 	height: 320px;
 }
 
+/* ============================================================
+	 	Enterprises Hover
+============================================================ */
 
-.grid {
+.grid-small {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.grid-small li {
+	display: inline-block;
+	width: 440px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+.grid-small figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid-small figure img {
+	background-color: white;
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid-small figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+}
+
+.grid-small figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.grid-small figcaption span:before {
+	content: 'by ';
+}
+
+.grid-small figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+	color: #fff;
+}
+
+@media screen and (max-width: 31.5em) {
+	.grid-small {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid-small li {
+		width: 100%;
+		min-width: 300px;
+	}
+}
+
+/***** Effect *****/
+.cs-style-2 figure img {
+	z-index: 10;
+	transition: transform 0.4s;
+}
+
+.no-touch .cs-style-2 figure:hover img,
+.cs-style-2 figure.cs-hover img {
+	transform: translateY(-90px);
+}
+.cs-style-2 figcaption {
+	height: 90px;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+}
+
+.cs-style-2 figcaption a {
+	position: absolute;
+	right: 20px;
+	top: 30px;
+}
+/* ============================================================
+	  Image Hover
+============================================================ */
+.grid-small {
 	position: relative;
 	margin: 0 auto;
 	padding: 1em 0 4em;
@@ -27,13 +126,12 @@
 /* Common style */
 .grid figure {
 	position: relative;
-	float: left;
 	overflow: hidden;
-	margin: 10px 1%;
+	margin: 10px auto 20px auto;
 	min-width: 320px;
 	max-width: 480px;
 	max-height: 360px;
-	width: 48%;
+	width: 100%;
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
@@ -108,9 +206,7 @@
 }
 
 
-/*---------------*/
 /***** Milo *****/
-/*---------------*/
 
 figure.effect-milo {
 	background: #2e5d5a;
