@@ -9,6 +9,12 @@
 		url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');
 }
 
+.revealJs iframe{
+	width: 80%;
+	height: 320px;
+}
+
+
 .grid {
 	position: relative;
 	margin: 0 auto;
@@ -31,6 +37,14 @@
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
+}
+
+@media(max-width:768px) {
+	.grid figure{
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 .grid figure img {
