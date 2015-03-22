@@ -12,6 +12,7 @@
 #avatar img{
 	border-radius: 50%;
 	border: 5px solid white;
+	margin-bottom: 70px;
 }
 
 .revealJs iframe{
@@ -33,7 +34,7 @@
 
 .grid-small li {
 	display: inline-block;
-	width: 440px;
+	width: 100%;
 	margin: 0;
 	padding: 20px;
 	text-align: left;
@@ -67,7 +68,7 @@
 }
 
 .grid-small figcaption span:before {
-	content: 'by ';
+	content: 'of ';
 }
 
 .grid-small figcaption a {
